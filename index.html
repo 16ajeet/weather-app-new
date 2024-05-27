@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>weather app</title>
+</head>
+
+<body class="verticle-flex flex">
+    <h1>Weather App</h1>
+    <div class="searchbar-div">
+        <input type="search" name="" id="" placeholder="please type city name" class="searchbar">
+        <button type="button" id="search-btn"><p>Search</p> 
+            <img src="./search.png" alt="" srcset="">
+        </button>
+    </div>
+    <div class="content flex verticle-flex">
+        <h2 class="display-city">Mumbai</h2>
+        <img src="./sunny.png" alt="" class="weather-img">
+        
+        <div class="weather-desc flex verticle-flex">
+            <div class="flex">
+                <p class="temperature" style="font-size: 1.3rem;">0</p>
+                <p><sup style="font-size: 0.8rem;">o</sup>C</p>
+            </div>
+            <p class="weather-type">Light Rain</p>
+        </div>
+
+        <div class="extra-info flex">
+            <div class="humidity flex">
+                <img src="./drop.png" alt="" class="img">
+                <div class="flex verticle-flex"><p class="para humidity-detail">40% </p> <span>Humidity</span></div>
+            </div>
+            <div class="wind-speed flex">
+                <img src="./wind.png" alt="" class="img">
+                <div class="flex verticle-flex"><p class="para wind_speed">25 </p> <span>KmpH</span> </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
